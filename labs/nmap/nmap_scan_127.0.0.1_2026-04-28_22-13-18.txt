@@ -1,0 +1,13 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-04-28 22:13 +0300
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00017s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE         VERSION
+135/tcp open  msrpc           Microsoft Windows RPC
+445/tcp open  microsoft-ds?
+903/tcp open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.96 seconds
+
