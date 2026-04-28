@@ -1,0 +1,26 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-04-28 22:28 +0300
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00071s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE         VERSION
+135/tcp open  msrpc           Microsoft Windows RPC
+445/tcp open  microsoft-ds?
+903/tcp open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+Device type: general purpose
+Running: Microsoft Windows 11
+OS CPE: cpe:/o:microsoft:windows_11
+OS details: Microsoft Windows 11 24H2 - 25H2
+Network Distance: 0 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2026-04-28T19:28:18
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.42 seconds
+
